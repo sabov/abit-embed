@@ -1,3 +1,7 @@
+/*
+* https://github.com/sabov/abit-embed
+* Alexsandr Sabov and Sergey Wicer for pedpresa.com
+*/
 ;(function(){
 	var Form = function(){
 		var self = this;
