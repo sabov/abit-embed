@@ -2,6 +2,7 @@
 	<head>
 	<title>Test</title>
 	<link rel="stylesheet" href="ae.css" />
+	<script type="text/javascript" src="jquery-1.7.2.min.js"></script>
 	<script type="text/javascript" src="ae.js"></script>
 	</head>
 	<body>
@@ -12,21 +13,18 @@
 					<span class="b-ae__first-word">п</span>рогноз вступу
 				</h2>
 			</div>
-			<div class="b-ae__input-item">
-				<label for="" class="e-label">
-					Атестат
-				</label>
-				<input type="text" class="e-textbox" />
+			<div class="b-ae__inputs-holder">
+				<div class="b-ae__input-item">
+					<label for="" class="e-label">Атестат</label>
+					<input type="text" class="e-textbox" />
+				</div>
+				<div class="b-ae__input-item">
+					<label for="" class="e-label">Українська мова та література</label>
+					<input type="text" class="e-textbox" />
+				</div>
 			</div>
-			<div class="b-ae__input-item">
-				<label for="" class="e-label">
-					Українська мова та література
-				</label>
-				<input type="text" class="e-textbox" />
-			</div>
-			<select class="e-select"><option>- Оберіть предмет -</option><option>Іспанська мова</option><option>Історія України</option><option>Англійська мова</option><option>Біологія</option><option>Географія</option><option>Математика</option><option>Німецька мова</option><option>Російська мова</option><option>Французька мова</option><option>Фізика</option><option>Хімія</option></select>
-			<a href="" class="e-butt e-butt__sec">Додати предмет</a>
-			<a href="" class="e-butt e-butt__main ">Прогноз</a>
+			<a href="" class="e-butt e-butt__sec b-ae__add-subject">Додати предмет</a>
+			<a href="http://abit.org.ua" class="e-butt e-butt__main b-ae__forecast">Прогноз</a>
 		</div>
 	</div>
 	</body>

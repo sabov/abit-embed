@@ -119,5 +119,6 @@ input:-moz-placeholder {
 	outline: 0 none;
 }
 .e-label {
+	margin:0 0 3px;
 	display:block;
 }
