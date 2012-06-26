@@ -1,6 +1,6 @@
 /*
 * https://github.com/sabov/abit-embed
-* Alexsandr Sabov and Sergey Wicer for pedpresa.com
+* Alexsandr Sabov and Sergey Vayser for pedpresa.com
 */
 ;(function(){
 	var Form = function(){
